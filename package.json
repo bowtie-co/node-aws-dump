@@ -1,0 +1,32 @@
+{
+  "name": "@bowtie/aws-dump",
+  "version": "0.0.1",
+  "description": "AWS Backup Utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowtie-co/node-aws-dump.git"
+  },
+  "keywords": [
+    "aws",
+    "backup",
+    "dump",
+    "copy",
+    "download",
+    "bowtie"
+  ],
+  "author": "Bowtie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bowtie-co/node-aws-dump/issues"
+  },
+  "homepage": "https://github.com/bowtie-co/node-aws-dump#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.708.0",
+    "fs-extra": "^9.0.1"
+  }
+}
